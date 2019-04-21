@@ -11,6 +11,7 @@
         <parameter name="browser" value="Firefox" />
         <classes>
             <class name="Yahoo_POM_TestScenarios.TC01_YahooSearchResult" />
+            <class name="day11_04072019.Express_Action_Item_loggers" />
         </classes>
     </test>
 </suite>
