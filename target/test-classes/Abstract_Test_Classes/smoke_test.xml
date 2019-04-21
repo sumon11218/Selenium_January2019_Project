@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automtiaon Test Suite" parallel="none" >
+    <test name="Express Checkout Test">
+        <classes>
+            <class name="Abstract_Test_Classes.Express_Action_Item_loggers" />
+            <class name="Abstract_Test_Classes.WW_ActionItem" />
+        </classes>
+    </test>
+</suite>
+  

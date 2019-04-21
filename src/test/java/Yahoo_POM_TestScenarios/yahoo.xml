@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automtiaon Test Suite" parallel="none" >
+    <test name="Yahoo Test">
+        <parameter name="browser" value="Chrome" />
+        <classes>
+            <class name="Yahoo_POM_TestScenarios.TC01_YahooSearchResult" />
+        </classes>
+    </test>
+    <test name="Firefox Test for Yeahoo">
+        <parameter name="browser" value="Firefox" />
+        <classes>
+            <class name="Yahoo_POM_TestScenarios.TC01_YahooSearchResult" />
+        </classes>
+    </test>
+</suite>
